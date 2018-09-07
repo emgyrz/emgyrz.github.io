@@ -1,0 +1,60 @@
+[
+  {
+    "name": "findByIdAndDel",
+    "filePath": "src/arr/index.js",
+    "lines": [
+      {
+        "lineNumber": 139,
+        "line": "/**"
+      },
+      {
+        "lineNumber": 140,
+        "line": " * Удаляет элемент из массива, если он там существует"
+      },
+      {
+        "lineNumber": 141,
+        "line": " * (поиск осуществляется по id)"
+      },
+      {
+        "lineNumber": 142,
+        "line": " *"
+      },
+      {
+        "lineNumber": 143,
+        "line": " * @export"
+      },
+      {
+        "lineNumber": 144,
+        "line": " * @template T"
+      },
+      {
+        "lineNumber": 145,
+        "line": " * @param {Array<T>} arr"
+      },
+      {
+        "lineNumber": 146,
+        "line": " * @param {T} item"
+      },
+      {
+        "lineNumber": 147,
+        "line": " * @returns {boolean}"
+      },
+      {
+        "lineNumber": 148,
+        "line": " */"
+      },
+      {
+        "lineNumber": 149,
+        "line": "export function findByIdAndDel<T: { id: string }>( arr: Array<T>, id: string ): boolean {"
+      }
+    ],
+    "codeParams": [
+      "arr",
+      "id"
+    ],
+    "docParams": [
+      "arr",
+      "item"
+    ]
+  }
+]
